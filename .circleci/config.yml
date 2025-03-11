@@ -25,7 +25,7 @@ jobs:
           name: Push Docker Image to Docker Hub
           command: |
             echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-            docker push saadqamar/circleci-devsecops-image
+            docker push saadqamar/devsecops-assignment2
 
 workflows:
   version: 2
